@@ -1,4 +1,4 @@
-# Flight Fare Prediction: [[WebApp Link]]([https://flight-price-prediction-webapp-production.up.railway.app/predict](https://lukechugh-flight-fare-prediction-webapp.up.railway.app/))
+# Flight Fare Prediction: [[WebApp Link]](https://lukechugh-flight-fare-prediction-webapp.up.railway.app/)
 
 ![](https://img.shields.io/badge/python-3.7-blueviolet)
 ![](https://img.shields.io/badge/scikit--learn-0.24.1-blue)
