@@ -6,8 +6,9 @@
 ![](https://img.shields.io/badge/flask-2.1.2-aquamarine)
 
 Input Departure Date, Arrival Date, Starting Point, Ending Destination, Number of Stops and the Name of the Airlines and this WebApp will predict the price of your flight using Random Forests
-
+<p style="text-indent: 20px;">
 ♦ Dataset was obtained by web-scraping records from "Ease My Trip" website using beautiful soup
+</p>
 
 ♦ Checked for null values and imputed them with appropriate techniques
 
