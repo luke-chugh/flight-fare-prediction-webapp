@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/python-3.7-blueviolet)
 ![](https://img.shields.io/badge/scikit--learn-0.24.1-blue)
-![](https://img.shields.io/badge/Frontend-HTML/CSS/-fuchsia)
+![](https://img.shields.io/badge/Frontend-HTML/CSS-fuchsia)
 ![](https://img.shields.io/badge/flask-2.1.2-aquamarine)
 
 This is a Flask web app which predicts fare of Flight ticket using Random Forests.
