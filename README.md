@@ -6,6 +6,8 @@
 ![](https://img.shields.io/badge/flask-2.1.2-aquamarine)
 
 This is a Flask web app which predicts fare of Flight ticket using Random Forests.
+Docker Container Registry on DockerHub: lukechugh/flight_fare_prediction
+
 # Below is the screenshot of my WebApp
 
 ![Capture](https://github.com/luke-chugh/Flight-Price-Prediction-WebApp/blob/main/screenshots/1.png)
