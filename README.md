@@ -5,7 +5,17 @@
 ![](https://img.shields.io/badge/Frontend-HTML/CSS-fuchsia)
 ![](https://img.shields.io/badge/flask-2.1.2-aquamarine)
 
-This is a Flask web app which predicts fare of Flight ticket using Random Forests.
+Input Departure Date, Arrival Date, Starting Point, Ending Destination, Number of Stops and the Name of the Airlines and this WebApp will predict the price of your flight using Random Forests
+
+♦ Dataset was obtained by web-scraping records from "Ease My Trip" website using beautiful soup
+♦ Checked for null values and imputed them with appropriate techniques
+♦ Extracted year, month, day, hour and minutes from "Date of Journey", "Departure Time" and "Arrival Time" using pandas 
+♦ Handled categorical data using OneHotEncoder and LabelEncoder
+♦ Implemented Exploratory Data Analysis
+♦ Implemented pre-model feature selection and visualized the most important features using heatmap and SelectKBest. Implemented post model feature selection using ExtraTreesRegressor
+♦ Used LazyPredict library to build a report of adjusted R square scores of 10 models sorted in descending order of adjusted R sqaured score
+♦ Random Forest performed the best. Implemented Hyperparameter Tuning using RandomisedSearchCV
+♦ Finally pickled the optimized Random Forest model and built a WebApp using HTML, CSS and Flask which was deployed on Railway.app Cloud using Docker Image
 
 Docker Container Registry on DockerHub: lukechugh/flight_fare_prediction
 
