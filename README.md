@@ -9,7 +9,6 @@ Input Departure Date, Arrival Date, Starting Point, Ending Destination, Number o
 <p style="text-indent: 20px;">
 ♦ Dataset was obtained by web-scraping records from "Ease My Trip" website using beautiful soup
 </p>
-
 ♦ Checked for null values and imputed them with appropriate techniques
 
 ♦ Extracted year, month, day, hour and minutes from "Date of Journey", "Departure Time" and "Arrival Time" using pandas 
