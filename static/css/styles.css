@@ -1,0 +1,26 @@
+body {
+    background-color: #189AB4;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #ff0095;  
+    text-align: center;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    text-align: center;
+}
+
+a {
+    color: #ffffff;
+    text-align: center;
+}
+
+a:hover {
+    color: #f0f0f0;
+    text-align: center;
+}
+
+
