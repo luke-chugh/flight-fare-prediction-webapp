@@ -9,21 +9,30 @@ Input Departure Date, Arrival Date, Starting Point, Ending Destination, Number o
 <p style="text-indent: 20px;">
 ♦ Dataset was obtained by web-scraping records from "Ease My Trip" website using beautiful soup
 </p>
+<p style="text-indent: 20px;">
 ♦ Checked for null values and imputed them with appropriate techniques
-
+</p>
+<p style="text-indent: 20px;">
 ♦ Extracted year, month, day, hour and minutes from "Date of Journey", "Departure Time" and "Arrival Time" using pandas 
-
+</p>
+<p style="text-indent: 20px;">
 ♦ Handled categorical data using OneHotEncoder and LabelEncoder
-
+</p>
+<p style="text-indent: 20px;">
 ♦ Implemented Exploratory Data Analysis
-
+</p>
+<p style="text-indent: 20px;">
 ♦ Implemented pre-model feature selection and visualized the most important features using heatmap and SelectKBest. Implemented post model feature selection using ExtraTreesRegressor
-
+</p>
+<p style="text-indent: 20px;">
 ♦ Used LazyPredict library to build a report of adjusted R square scores of 10 models sorted in descending order of adjusted R sqaured score
-
+</p>
+<p style="text-indent: 20px;">
 ♦ Random Forest performed the best. Implemented Hyperparameter Tuning using RandomisedSearchCV
-
+</p>
+<p style="text-indent: 20px;">
 ♦ Finally pickled the optimized Random Forest model and built a WebApp using HTML, CSS and Flask which was deployed on Railway.app Cloud using Docker Image
+</p>
 
 Docker Container Registry on DockerHub: lukechugh/flight_fare_prediction
 
